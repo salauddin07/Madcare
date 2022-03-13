@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking page</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+	<!----aos css file cdn link-----> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+<a href="#" class="logo"> <i class="fas fa-heartbeat"></i> medcare. </a>
+<a href="#" class="review">Review</a>
+<a href="#" class="blog">Blog</a>
+<a href="#" class="account">Contact</a>
+<nav id="sideNav">
+<ul>
+<li><a href="#">HOME</a></li>
+<li><a href="#">SERVICE</a></li>
+<li><a href="#">FACILITY</a></li>
+<li><a href="#">DOCTOR</a></li>
+<li><a href="#">MEDICINE</a></li>
+<li><a href="#">ABOUT</a></li>
+<li><a href="#">CONTACT</a></li>
+<li><a href="#">BOOK</a></li>
+</ul>
+</nav>
+<img src="image/menu.png" id="menuBtn">
+</header>
+
+<!-- header section ends -->
+
+
+
+
+<!-- booking section starts   -->
+
+<section class="book" id="book">
+
+    <h1 class="heading"> <span>book</span> now </h1>    
+
+    <div class="row">
+
+        <div class="image book" data-aos="fade-right">
+            <img src="image/book-img.svg" alt="">
+        </div>
+
+        <form action="" data-aos="flip-down">
+            <h3>book appointment</h3>
+            <input type="text" placeholder="Your Name" class="box">
+            <input type="number" placeholder="Your Number" class="box">
+            <input type="email" placeholder="Your Email" class="box">
+			<input type="email" placeholder="Your Address" class="box">
+            <input type="date" class="box">
+            <input type="submit" value="book now" class="btn">
+            
+        </form>
+
+    </div>
+
+</section>
+
+<!-- booking section ends -->
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+<section class="footer">
+
+    <div class="box-container" data-aos="fade-left">
+
+        <div class="box change">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-chevron-right"></i> home </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> services </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> facility </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> doctors </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> medicines </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> about </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> book </a>
+			
+        </div>
+
+        <div class="box change"> 
+            <h3>our services</h3>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Free Checkups </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Ambulance Facility </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Expert Doctors </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Medicines </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Free Delivery </a>
+        </div>
+
+        <div class="box change">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +880 18748-15116 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +880 17608-85805 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
+            <a href="#"> <i class="fas fa-envelope"></i> anasbhai@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>Dhaka, 1401-Bangladesh </a>
+        </div>
+
+        <div class="box change">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+           
+        </div>
+
+    </div>
+
+    <div class="credit"> Doctors <span>&</span> Medicines Corner </div>
+
+</section>
+<!-- footer section ends -->
+
+
+
+
+
+
+<script>
+var menuBtn = document.getElementById("menuBtn");
+var sideNav = document.getElementById("sideNav");
+
+
+sideNav.style.right = "-250px";
+menuBtn.onclick = function(){
+if(sideNav.style.right == "-250px")
+{
+sideNav.style.right = "0";
+
+}
+
+else{
+sideNav.style.right = "-250px";
+}
+}
+
+var scroll = new SmoothScroll('a[href*="#"]',{
+
+speed: 1000,
+speedAsDuration:true
+
+});
+
+</script>
+
+
+
+<!----Aos animated libarary------>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+AOS.init({
+
+duration:1000,
+delay:400
+
+});
+
+</script>
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

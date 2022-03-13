@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive hospital website design </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-
+awesome.min.css">
+
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+<div class="container">
+
+    <a href="#" class="logo"><span>H</span>ealth<span>C</span>are.</a>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#facility">facility</a></li>
+            <li><a href="#review">review</a></li>
+            <li><a href="#contact">contact</a></li>
+            <li><a href="#post">post</a></li>
+        </ul>
+    </nav>
+
+    <div class="fas fa-bars"></div>
+
+</div>
+
+</header>
+
+
+<!-- loging section ends -->
+<body>
+
+
+
+ 
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+<script>
+
+var LoginForm = document.getElementById("LoginForm");
+var RegForm = document.getElementById("RegForm");
+var Indicator = document.getElementById("Indicator");
+
+
+function register(){
+ 
+ RegForm.style.transform = "translateX(0px)";
+ LoginForm.style.transform = "translateX(0px)";
+ Indicator.style.transform = "translateX(100px)";
+}
+
+function login(){
+ 
+ RegForm.style.transform = "translateX(300px)";
+ LoginForm.style.transform = "translateX(300px)";
+ Indicator.style.transform = "translateX(0px)";
+}
+
+</script>
+
+
+
+
+<script>
+var menuBtn = document.getElementById("menuBtn");
+var sideNav = document.getElementById("sideNav");
+
+
+sideNav.style.right = "-250px";
+menuBtn.onclick = function(){
+if(sideNav.style.right == "-250px")
+{
+sideNav.style.right = "0";
+
+}
+
+else{
+sideNav.style.right = "-250px";
+}
+}
+
+var scroll = new SmoothScroll('a[href*="#"]',{
+
+speed: 1000,
+speedAsDuration:true
+
+});
+
+</script>
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

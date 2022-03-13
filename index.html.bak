@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!----aos css file cdn link-----> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- magnific popup css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-
+awesome.min.css">
+
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+
+
+<!-- header section starts  -->
+
+<header class="header">
+<a href="#" class="logo"> <i class="fas fa-heartbeat"></i> medcare. </a>
+<a href="#review" class="review">Review</a>
+<a href="#blogs" class="blog">Blog</a>
+<a href="contact.html" class="account">Contact</a>
+<nav id="sideNav">
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="service.html">SERVICE</a></li>
+<li><a href="facilities.html">FACILITY</a></li>
+<li><a href="doctors.html">DOCTOR</a></li>
+<li><a href="medicine.html">MEDICINE</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+<li><a href="book.html">BOOK</a></li>
+</ul>
+
+</nav>
+<img src="image/menu.png" id="menuBtn">
+
+</header>
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+    <div class="image header-img" data-aos="fade-right">
+        <img src="image/home-img.svg" alt="">
+    </div>
+
+	<div class="col-md-6">
+    <div class="content" data-aos="fade-left">
+        <h3>stay safe, <span class="auto-input"></span></h3>
+        <p>The Doctors & Medicine corner website has been created for medical stores across the country.</p>
+        <a href="#" class="btn up"> contact us <span class="fas fa-chevron-right"></span> </a>
+    </div>
+	</div>
+</section>
+
+<!-- home section ends -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-user-md"></i>
+        <h3 id="num1"></h3>
+        <p>doctors at work</p>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-users"></i>
+        <h3 id="num2"></h3>
+        <p>satisfied patients</p>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-procedures"></i>
+        <h3 id="num3"></h3>
+        <p>Medicine Store facility</p>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-hospital"></i>
+        <h3 id="num4"></h3>
+        <p>available branch</p>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> our <span>services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-left">
+            <i class="fas fa-notes-medical"></i>
+            <h3>free checkups</h3>
+            <p>Free checkups are one of the many beneifts for poor and helpless people.</p>
+            <a href="#" class="btn change"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box" data-aos="fade-left">
+            <i class="fas fa-ambulance"></i>
+            <h3>24/7 ambulance</h3>
+            <p>There is an ambulance service 24 hours a day, which can be booked online.</p>
+            <a href="#" class="btn change"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box" data-aos="fade-left">
+            <i class="fas fa-user-md"></i>
+            <h3>expert doctors</h3>
+            <p>There are exparte doctors as consultants for various diseases.Through them,service can be taken at home through online.</p>
+            <a href="#" class="btn change"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box" data-aos="fade-right">
+            <i class="fas fa-pills"></i>
+            <h3>medicines</h3>
+            <p>All types of domestic and foreign medicine can be ordered online.And with free home delivery.</p>
+            <a href="#" class="btn change"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box" data-aos="fade-right">
+            <i class="fas fa-procedures"></i>
+            <h3>branch facility</h3>
+            <p>We have branches in different distircts of the country.From these branches the user will be able
+			to know the information containing various direction and will also be able to report it's problems.</p>
+            <a href="#" class="btn change"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box" data-aos="fade-right">
+            <i class="fas fa-heartbeat"></i>
+            <h3>total care</h3>
+            <p>We try our best to give the best services.So that the user benefits from getting our services.</p>
+            <a href="#" class="btn change"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> us </h1>
+
+    <div class="row">
+
+        <div class="image" data-aos="fade-right">
+            <img src="image/about-img.svg" alt="">
+        </div>
+
+        <div class="content" data-aos="fade-left">
+            <h3>we take care of your healthy life</h3>
+            <p>Doctors and medicine corner project has been created for medical stores across the country.
+			In this project, a user will be enjoy the services of doctors as well as medicine. With doctor and medicine
+			service together, a user will be able to enjoy his essential service from our website.</p>
+            <p>We want to give our users something that they can easily buy medicine online as well as get in-depth
+			advice from an experienced doctor for any disease.</p>
+            <a href="#" class="btn about"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+    </div>
+
+</section>
+<!-- about section ends -->
+
+<!-- doctors section starts  -->
+
+<section class="doctors" id="doctors">
+
+    <h1 class="heading"> our <span>doctors</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="zoom-in">
+            <img src="image/doc-1.jpg" alt="">
+            <h3>Salma Sultana</h3>
+            <span>Thyroid & Hormone </span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <img src="image/doc-2.jpg" alt="">
+            <h3>Md. Hafizur Rahman</h3>
+            <span>Surgery Specialist</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <img src="image/doc-3.jpg" alt="">
+            <h3>Dr. Md.Hamim</h3>
+            <span>Medicine Specialist</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        
+        
+       
+
+    </div>
+
+</section>
+
+<!-- doctors section ends -->
+
+
+
+<!-- review section starts  -->
+<section class="review" id="review">
+
+<h1 class="heading extra"> PATIENT <span>review</span> </h1>
+
+<div class="box-container">
+<div class="bd-example">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+	   <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+	    
+    </ol>
+    <div class="carousel-inner" data-aos="fade-right">
+      <div class="carousel-item active">
+        <img src="image/salauddin.jpg">
+        <div class="carousel-caption">
+         
+		  <small>MD. SALAUDDIN</small>
+          <p>I have been able to enjoy two service very easily from doctors and medicine corner website.
+			I have been able to take the advice of an experienced doctor along with the medicine.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/jihan.jpg">
+        <div class="carousel-caption">
+		  <small>MINHAJUL ABEDIN JIHAN</small>
+          <p>I have been able to enjoy two service very easily from doctors and medicine corner website.
+			I have been able to take the advice of an experienced doctor along with the medicine.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/ajoy.jpg">
+        <div class="carousel-caption">
+        
+		  <small>AJOY SAHA</small>
+          <p>I have been able to enjoy two service very easily from doctors and medicine corner website.
+			I have been able to take the advice of an experienced doctor along with the medicine.</p>
+        </div>
+      </div>
+	  
+	  <div class="carousel-item">
+        <img src="image/akash.jpg">
+        <div class="carousel-caption">
+		  <small>JOYANTA SHOME AKASH</small>
+          <p>I have been able to enjoy two service very easily from doctors and medicine corner website.
+			I have been able to take the advice of an experienced doctor along with the medicine.</p>
+        </div>
+      </div>
+	  
+	 
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<!-- review section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="flip-down">
+            <div class="image">
+                <img src="image/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icon">
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st march, 2022 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+                <h3>blog title goes here</h3>
+                <p>The Doctors & Medicine Corner Website Has Been Created For Medical Stores Across The Country.</p>
+                <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="flip-down">
+            <div class="image">
+                <img src="image/blog-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icon">
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st march, 2022 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+                <h3>blog title goes here</h3>
+                <p>The Doctors & Medicine Corner Website Has Been Created For Medical Stores Across The Country.</p>
+                <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="flip-down">
+            <div class="image">
+                <img src="image/blog-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icon">
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st march, 2022 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+                <h3>blog title goes here</h3>
+                <p>The Doctors & Medicine Corner Website Has Been Created For Medical Stores Across The Country.</p>
+                <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container" data-aos="fade-left">
+
+        <div class="box change">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-chevron-right"></i> home </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> services </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> facility </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> doctors </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> medicines </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> about </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> book </a>
+			
+        </div>
+
+        <div class="box change"> 
+            <h3>our services</h3>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Free Checkups </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Ambulance Facility </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Expert Doctors </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Medicines </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Free Delivery </a>
+        </div>
+
+        <div class="box change">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +880 18748-15116 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +880 17608-85805 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
+            <a href="#"> <i class="fas fa-envelope"></i> anasbhai@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>Dhaka, 1401-Bangladesh </a>
+        </div>
+
+        <div class="box change">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+           
+        </div>
+
+    </div>
+
+    <div class="credit"> Doctors <span>&</span> Medicines Corner </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+<script>
+var menuBtn = document.getElementById("menuBtn");
+var sideNav = document.getElementById("sideNav");
+
+
+sideNav.style.right = "-250px";
+menuBtn.onclick = function(){
+if(sideNav.style.right == "-250px")
+{
+sideNav.style.right = "0";
+
+}
+
+else{
+sideNav.style.right = "-250px";
+}
+}
+
+var scroll = new SmoothScroll('a[href*="#"]',{
+
+speed: 1000,
+speedAsDuration:true
+
+});
+
+</script>
+
+
+
+
+<script>
+var count5=0;
+var project5 = setInterval(project5,30);
+
+
+function project5(){
+	count5++;
+	var num1 = document.getElementById("num1").innerHTML = count5;
+	if(count5==150){
+		clearInterval(project5);
+	}
+}
+
+</script>
+
+
+<script>
+var count1=0;
+var project1 = setInterval(project1,3);
+
+
+function project1(){
+	count1++;
+	var num2 = document.getElementById("num2").innerHTML = count1;
+	if(count1==1050){
+		clearInterval(project1);
+	}
+}
+
+
+
+var count7=0;
+var clint = setInterval(clint,8);
+
+function clint(){
+	count7++;
+	var num3 = document.getElementById("num3").innerHTML = count7;
+	if(count7==500){
+		clearInterval(clint);
+	}
+}
+
+
+
+var count3=0;
+var project3 = setInterval(project3,18);
+function project3(){
+	count3++;
+	var num4 = document.getElementById("num4").innerHTML = count3;
+	if(count3==200){
+		clearInterval(project3);
+	}
+}
+
+</script>
+
+
+
+
+<script>
+var icon = document.getElementById("icon");
+icon.onclick = function(){
+
+document.body.classList.toggle("dark-theme")
+
+}
+
+</script>
+
+
+
+
+
+<!----Aos animated libarary------>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+AOS.init({
+
+duration:1000,
+delay:400
+
+});
+
+</script>
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+var typed = new Typed(".auto-input", {
+strings: ["Stay Safe","stay healthy"],
+typeSpeed:100,
+backSpeed:100,
+loop:true
+})
+</script>
+</body>
+</html>

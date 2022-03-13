@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+	<!----aos css file cdn link-----> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+
+
+
+
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-
+awesome.min.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+<a href="#" class="logo"> <i class="fas fa-heartbeat"></i> medcare. </a>
+<a href="#" class="review">Review</a>
+<a href="#" class="blog">Blog</a>
+<a href="#" class="account">Contact</a>
+<nav id="sideNav">
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="service.html">SERVICE</a></li>
+<li><a href="facilities.html">FACILITY</a></li>
+<li><a href="doctors.html">DOCTOR</a></li>
+<li><a href="medicine.html">MEDICINE</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+<li><a href="book.html">BOOK</a></li>
+</ul>
+
+</nav>
+<img src="image/menu.png" id="menuBtn">
+
+</header>
+<!-- header section ends -->
+
+
+<section class="home" id="home">
+
+    <div class="image service-pic" data-aos="fade-right">
+        <img src="image/home-img.svg" alt="">
+    </div>
+
+    <div class="content" data-aos="fade-left">
+        <h3>stay safe, stay healthy</h3>
+        <p>The Doctors & Medicine corner website has been created for medical stores across the country.</p>
+        <a href="#" class="btn"> contact us <span class="fas fa-chevron-right"></span> </a>
+    </div>
+
+</section>
+
+
+
+
+
+
+<!-- about section starts  -->
+<section class="about-us">
+<h1 class="heading"> <span>About</span> Us </h1>   
+<div class="container">
+<div class="abaout-space">
+<div class="row">
+<div class="col-md-6">
+<div class="about-img" data-aos="fade-right">
+<img src="image/about.png">
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="right" data-aos="fade-left">
+<h3 class="about-us">About us</h3>
+<span class="squere"></span>
+<p class="para">Doctors And Medicine Corner Project Has Been Created For Medical Stores Across The Country. In This Project,
+A User Will Be EnjoyThe Services Of Doctors As Well As Medicine. With Doctor And Medicine Service Together, 
+A User Will Be Able To Enjoy His Essential Service From Our Website.</p>
+<p class="para2">We Want To Give Our Users Something That They Can Easily Buy Medicine Online As Well As Get In-Depth Advice From An 
+Experienced Doctor For Any Disease.</p>
+<div class="line">
+<span class="line-1"></span><br>
+<span class="line-2"></span><br>
+<span class="line-3"></span>
+</div>
+<h3 class="cotation">“Time and health are two precious assets that we don't recognize and appreciate until they have been depleted.”</h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+<!-- about section ends -->
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container" data-aos="fade-left">
+
+        <div class="box change">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-chevron-right"></i> home </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> services </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> facility </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> doctors </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> medicines </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> about </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> book </a>
+			
+        </div>
+
+        <div class="box change"> 
+            <h3>our services</h3>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Free Checkups </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Ambulance Facility </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Expert Doctors </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Medicines </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Free Delivery </a>
+        </div>
+
+        <div class="box change">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +880 18748-15116 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +880 17608-85805 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
+            <a href="#"> <i class="fas fa-envelope"></i> anasbhai@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>Dhaka, 1401-Bangladesh </a>
+        </div>
+
+        <div class="box change">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+           
+        </div>
+
+    </div>
+
+    <div class="credit"> Doctors <span>&</span> Medicines Corner </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var menuBtn = document.getElementById("menuBtn");
+var sideNav = document.getElementById("sideNav");
+
+
+sideNav.style.right = "-250px";
+menuBtn.onclick = function(){
+if(sideNav.style.right == "-250px")
+{
+sideNav.style.right = "0";
+
+}
+
+else{
+sideNav.style.right = "-250px";
+}
+}
+
+var scroll = new SmoothScroll('a[href*="#"]',{
+
+speed: 1000,
+speedAsDuration:true
+
+});
+
+</script>
+
+
+
+<!----Aos animated libarary------>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+AOS.init({
+
+duration:1000,
+delay:400
+
+});
+
+</script>
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
